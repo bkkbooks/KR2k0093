@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR2k0093/v1
+canonical_location: https://kanripo.org/bkk/KR2k0093/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 洛陽名園記
+  date: '2015-08-24 22:45:12.434212'
+  source:
+    repository: kanripo
+    path: KR2k0093
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR2k0093_000.yaml, hash: 'sha256:f28ed974571771e1cda279678da0820db63995b5522d436b138827c2c26bc9e7'}
+  - {seq: 1, filename: KR2k0093_001.yaml, hash: 'sha256:a0191b1a253cb5a735d8b589732530aed4365922d1dcd988409242a9c56911d4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2k0093_000.markers.yaml, hash: 'sha256:66d917f1485c8e0924a9a0de841d83591f3abf962e7dda38f9ef437630e045cb'}
+  - {seq: 1, role: markers, filename: assets/KR2k0093_001.markers.yaml, hash: 'sha256:533abd6e709241efd6842b3ac5a3e6f140dfc160bf4785889790473d4e3f1cdb'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2k0093_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 290
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2k0093_WYG_000-3a
+    span:
+    - body
+    - 290
+    - 982
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR2k0093_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 3370
+  label: 洛陽名園記
+  type: section
+  level: 1
+hash: sha256:d98a4267f79daa5d5382f7b54c99d2f7dbfd6e916fc1fe12b7042b98637adaa8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
