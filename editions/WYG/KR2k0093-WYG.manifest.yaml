@@ -20,7 +20,7 @@ assets:
   - {seq: 0, filename: KR2k0093_000-WYG.yaml, hash: 'sha256:d9c90082c4138577783de59e28268eef9a18735067de202a8ad23a6be9093500'}
   - {seq: 1, filename: KR2k0093_001-WYG.yaml, hash: 'sha256:a40c7a99b225198f2a603472e17e4bc00c12d593aa13c6f9c426007aa29104db'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR2k0093_000-WYG.markers.yaml, hash: 'sha256:6bf1b513bc0dca80b418c0ca83d15171c30a83a9de52e704f09659e2a9f590c1'}
+  - {seq: 0, role: markers, filename: assets/KR2k0093_000-WYG.markers.yaml, hash: 'sha256:a71bc9018fa6ed765474efd54738bb696311fa1684ad129c2c3555d45e81a45d'}
   - {seq: 1, role: markers, filename: assets/KR2k0093_001-WYG.markers.yaml, hash: 'sha256:1c1e18073dab0031cd6a3631dd53affde97cb86f65444502d4e9b8b9c501cf69'}
 table_of_contents:
 - ref:
@@ -53,4 +53,4 @@ table_of_contents:
   label: 洛陽名園記
   type: section
   level: 1
-hash: sha256:7d8643b8aad01fd33d798885a19ab3260dc1063e43b4ac6c1360e7f1e6137d54
+hash: sha256:08a98a24fdd63a457fb609cad85017ae440ba60c4f644da0d15f12c888f12248
